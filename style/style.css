@@ -1,0 +1,28 @@
+@import "../style/header.css";
+
+@font-face {
+  font-family: "Actay-Regular";
+  font-weight: 400;
+  src: url(../fonts/actay/Actay-Regular.otf);
+}
+@font-face {
+  font-family: "ActayWide-Bold";
+  font-weight: 700;
+  src: url(../fonts/actaywide/ActayWide-Bold.otf);
+}
+body {
+  font-family: 'Actay-Regular';
+  color: #fff;
+  background-image: url(../img/background/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: 50%; */
+  max-width: 1440px;
+  height: 788px;
+}
+
+.container {
+  width: 100%;
+  height: 700px;
+  padding: 40px 70px 0 70px;
+}
