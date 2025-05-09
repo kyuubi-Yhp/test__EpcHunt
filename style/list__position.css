@@ -3,8 +3,7 @@
 }
 
 .block__list-position-1 {
-position: relative;
-
+position: absolute;
 }
 .block__list-position-1::after {
   position: absolute;
@@ -96,4 +95,37 @@ position: relative;
   position: absolute;
   top: 198px;
   left: 770px;
+}
+
+
+@media (max-width: 1299px) {
+  .block__list-position-2 {
+    position: absolute;
+    top: 247px;
+    left: 28px;
+  }
+
+  .block__list-position-3 {
+    position: absolute;
+    top: 344px;
+    left: 329px;
+  }
+
+  .block__list-position-4 {
+    position: absolute;
+    top: 114px;
+    left: 257px;
+  }
+
+  .block__list-position-5 {
+    position: absolute;
+    top: 41px;
+    left: 576px;
+  }
+
+  .block__list-position-6 {
+    position: absolute;
+    top: 198px;
+    left: 603px;
+  }
 }
