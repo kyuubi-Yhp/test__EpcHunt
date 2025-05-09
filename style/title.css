@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+}
+.title__main {
+  font-family: "ActayWide-Bold";
+font-size: 90px;
+}
+
+
+@media (max-width: 1199px) {
+  .title__main {
+    font-size: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+  .title__main {
+    width: 100%;
+  font-size: 35px;
+  }
+}
