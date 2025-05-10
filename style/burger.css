@@ -44,11 +44,11 @@
 text-align: start;
 }
 
-.link__in-header {
+.link__in-header-burger {
   width: 160px;
   border-bottom: 1px solid black;
 }
-.link__in-header::after {
+.link__in-header-burger::after {
   position: absolute;
   bottom: 5px;
   right: 0;
