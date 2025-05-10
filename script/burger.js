@@ -7,8 +7,8 @@ const burgerOverlay = document.querySelector('.burger__overlay')
 burgerBtn.addEventListener('click', () => {
   burgerBtn.classList.toggle('active')
   burgerMenu.classList.toggle('burger__position-active')
-  linkArrow.classList.toggle('link__in-header-burger')
   burgerOverlay.classList.toggle('burger__overlay-active')
+  linkArrow.classList.toggle('link__in-header-burger')
 });
 
 
@@ -28,7 +28,7 @@ burgerBtn.addEventListener('click', () => {
 burgerOverlay.addEventListener('click', () => {
   burgerBtn.classList.remove('active');
   burgerMenu.classList.remove('burger__position-active');
-  linkArrow.classList.toggle('link__in-header-burger')
   burgerOverlay.classList.remove('burger__overlay-active');
+  linkArrow.classList.toggle('link__in-header-burger')
 });
 
