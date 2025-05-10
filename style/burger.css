@@ -44,24 +44,6 @@
 text-align: start;
 }
 
-.link__in-header-burger {
-  width: 160px;
-  border-bottom: 1px solid black;
-}
-.link__in-header-burger::after {
-  position: absolute;
-  bottom: 5px;
-  right: 0;
-  content: "";
-  display: block;
-  width: 12px;
-  height: 12px;
-  background-image: url(../img/link_arrow/arrowBlack.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.link__in-header {}
 
 
 @media (max-width: 1199px) {
@@ -77,9 +59,25 @@ text-align: start;
     z-index: 4;
   }
 
-
   .berger__btn.active {
     background-image: url(../img/popitPseudo/cross.png);
+  }
+
+  .link__in-header-burger {
+    width: 160px;
+    border-bottom: 1px solid black;
+  }
+  .link__in-header-burger::after {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-image: url(../img/link_arrow/arrowBlack.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
 }
