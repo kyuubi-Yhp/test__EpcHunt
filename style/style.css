@@ -2,6 +2,7 @@
 @import "../style/title.css";
 @import "../style/list.css";
 @import "../style/list__position.css";
+@import "../style/popitBtn.css";
 
 @font-face {
   font-family: "Actay-Regular";
@@ -30,7 +31,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
   width: 100%;
   padding: 40px 70px 0 70px;

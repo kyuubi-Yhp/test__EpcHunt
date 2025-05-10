@@ -1,0 +1,85 @@
+.popit__btn {
+  position: relative;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.btn__popit-info {
+  font-size: 24px;
+  width: 215px;
+  height: 50px;
+  background-color: #fff;
+  color: black;
+  border-radius: 166px;
+}
+
+.contant__box-info {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 96px 61px 95px 61px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+  width: 993px;
+  max-height: 471px;
+  background-color: #fff;
+  z-index: 3;
+}
+
+.contant__box-info-active {
+  display: flex;
+}
+
+.cross__js {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.cross__js::after {
+  content: "";
+  position: fixed;
+  top: 39px;
+  right: 39px;
+  background-image: url(../img/popitPseudo/cross.png);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.info__text {
+  color: black;
+  line-height: 140%;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+@media (max-width: 998px) {
+  .contant__box-info {
+    overflow: scroll;
+    width: 290px;
+    max-height: 471px;
+    padding: 58px 10px 40px 10px;
+  }
+  .cross__js::after  {
+    content: "";
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    background-image: url(../img/popitPseudo/cross.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+  }
+
+  .info__text {
+    overflow-y: auto;
+    max-height: 372px;
+    font-size: 14px;
+  }
+}
