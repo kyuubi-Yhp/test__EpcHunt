@@ -13,7 +13,6 @@
   display: block;
 }
 
-
 .berger__btn {
   position: fixed;
   display: none;
@@ -59,7 +58,6 @@ text-align: start;
 }
 
 
-
 @media (max-width: 1199px) {
   .berger__btn {
     top: 30px;
@@ -93,5 +91,4 @@ text-align: start;
     background-size: cover;
     background-repeat: no-repeat;
   }
-
 }

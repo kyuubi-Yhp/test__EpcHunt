@@ -37,10 +37,6 @@ body {
   padding: 40px 70px 0 70px;
 }
 
-@media (max-width: 1350px) {}
-
-@media (max-width: 1199px) {}
-
 @media (max-width: 767px) {
   .container {
     padding: 30px 15px 0 15px;
@@ -49,6 +45,4 @@ body {
   .background__img {
     background-image: url(../img/background/background__size-320px.png);
   }
-
-
 }
