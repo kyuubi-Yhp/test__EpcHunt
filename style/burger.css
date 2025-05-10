@@ -1,0 +1,85 @@
+.berger__btn {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+.burger__btn-text {
+  position: fixed;
+  top: 34px;
+  right: 56px;
+}
+
+.burger__position {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 252px;
+  background-color: #fff;
+}
+
+.burger__position-active {
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__header-burger {
+  margin-top: 90px;
+  color: black;
+}
+
+.ul__header-burger {}
+
+.li__item-burger {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.li__item-burger:last-child {
+  margin-top: 30px;
+text-align: start;
+}
+
+.link__in-header {
+  width: 160px;
+  border-bottom: 1px solid black;
+}
+.link__in-header::after {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-image: url(../img/link_arrow/arrowBlack.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.link__in-header {}
+
+
+@media (max-width: 1199px) {
+  .berger__btn {
+    top: 30px;
+    right: 15px;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url(../img/burger__menu/burgerLine.png);
+    display: block;
+    z-index: 4;
+  }
+
+
+  .berger__btn.active {
+    background-image: url(../img/popitPseudo/cross.png);
+  }
+
+}
