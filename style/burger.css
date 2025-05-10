@@ -72,6 +72,8 @@ text-align: start;
   }
 
   .berger__btn.active {
+    width: 20px;
+    height: 20px;
     background-image: url(../img/popitPseudo/cross.png);
   }
 
