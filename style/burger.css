@@ -31,8 +31,6 @@
   color: black;
 }
 
-.ul__header-burger {}
-
 .li__item-burger {
   text-align: center;
   margin-bottom: 15px;
@@ -63,11 +61,11 @@ text-align: start;
     background-image: url(../img/popitPseudo/cross.png);
   }
 
-  .link__in-header-burger {
+  .link__in-header.link__in-header-burger {
     width: 160px;
     border-bottom: 1px solid black;
   }
-  .link__in-header-burger::after {
+  .link__in-header.link__in-header-burger::after {
     position: absolute;
     bottom: 5px;
     right: 0;
