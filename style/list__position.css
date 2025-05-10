@@ -8,7 +8,7 @@ position: absolute;
 .block__list-position-1::after {
   position: absolute;
   top: 86px;
-  left: 59px;
+  left: 20px;
   right: 0;
   content: "";
   background-image: url(../img/pseudoElement/line-1.png);
@@ -21,7 +21,7 @@ position: absolute;
 .block__list-position-2 {
   position: absolute;
   top: 247px;
-  left: 147px;
+  left: 69px;
 }
 .block__list-position-2::after {
   position: absolute;
@@ -39,12 +39,12 @@ position: absolute;
 .block__list-position-3 {
   position: absolute;
   top: 344px;
-  left: 497px;
+  left: 422px;
 }
 .block__list-position-3::after {
   position: absolute;
   top: -152px;
-  left: 82px;
+  left: 67px;
   right: 0;
   content: "";
   background-image: url(../img/pseudoElement/line-3.png);
@@ -57,7 +57,7 @@ position: absolute;
 .block__list-position-4 {
   position: absolute;
   top: 114px;
-  left: 425px;
+  left: 346px;
 }
 .block__list-position-4::after {
   position: absolute;
@@ -75,7 +75,7 @@ position: absolute;
 .block__list-position-5 {
   position: absolute;
   top: 41px;
-  left: 909px;
+  left: 828px;
 }
 .block__list-position-5::after {
   position: absolute;
@@ -94,7 +94,7 @@ position: absolute;
 .block__list-position-6 {
   position: absolute;
   top: 198px;
-  left: 770px;
+  left: 694px;
 }
 
 
